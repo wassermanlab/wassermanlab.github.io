@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="team padding-fix">
+  <div class="container">
+    <h1>Team</h1>
+    {% for team_member in site.team_members %}
+    <div class="row" style="padding-top: 15px;">
+      <div class="col-sm-4">
+        <a href="{{site.baseurl}}{{team_member.permalink}}">
+          <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-sm">
+        <h2>{{team_member.name}}, {{team_member.titles}}</h2>
+        <h3>{{team_member.position}}</h3>
+        <p>{{team_member.content}}</p>
+      </div>
+    </div>
+    {% endfor %}
+    <h1>Alumni</h1>
+  </div>
+</div>

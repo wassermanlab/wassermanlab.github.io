@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div class="team padding-fix">
+    <div class="container">
+      <h1>Team</h1>
+      <!-- row 1 -->
+      <div class="row" style="padding-top: 15px;">
+      {% for team_member in site.team_members limit: 5 offset: 0 %}
+      <div class="col">
+        <div class="card border-0">
+          <a href="{{site.baseurl}}{{team_member.permalink}}">
+          <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+        </a> 
+          <div class="card-body">
+            <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
+            <p class="card-text">{{team_member.position}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      </div>
+      <!-- row 2 -->
+      <div class="row" style="padding-top: 15px;">
+        {% for team_member in site.team_members limit: 5 offset: 5 %}
+        <div class="col">
+          <div class="card border-0">
+            <a href="{{site.baseurl}}{{team_member.permalink}}">
+              <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+              </a>
+            <div class="card-body">
+              <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
+              <p class="card-text">{{team_member.position}}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+        </div>
+      <!-- row 3 -->
+      <div class="row" style="padding-top: 15px;">
+        {% for team_member in site.team_members limit: 5 offset: 10 %}
+        <div class="col">
+          <div class="card border-0">
+            <a href="{{site.baseurl}}{{team_member.permalink}}">
+              <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+            </a> 
+            <div class="card-body">
+              <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
+              <p class="card-text">{{team_member.position}}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+        </div>
+     </div>
+</div>

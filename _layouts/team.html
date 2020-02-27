@@ -1,14 +1,208 @@
 ---
 layout: default
-
 ---
 
-<div class="team">
-    <div class="container">
+<div class="team padding-fix">
+  <div class="container">
+    <h1>Team</h1>
+    <h2>Principal Inverstigator</h2>
+    <div class="row">
       {% for team_member in site.team_members %}
-  <h2>
-    {{ team_member.name }}
-  </h2>
-{% endfor %}
-     </div>
+      {% if team_member.category == "pis" %}
+      <div class="col-3">
+        <div class="card border-0">
+          <a href="{{site.baseurl}}{{team_member.permalink}}">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
+            <p class="card-text">{{team_member.position}}</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <h2>Postdoctoral Fellows</h2>
+    <div class="row">
+      {% for team_member in site.team_members %}
+      {% if team_member.category == "postdocs" %}
+      <div class="col-3">
+        <div class="card border-0">
+          <a href="{{site.baseurl}}{{team_member.permalink}}">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
+            <p class="card-text">{{team_member.position}}</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <h2>Doctoral Students</h2>
+    <div class="row">
+      {% for team_member in site.team_members %}
+      {% if team_member.category == "phds" %}
+      <div class="col-3">
+        <div class="card border-0">
+          <a href="{{site.baseurl}}{{team_member.permalink}}">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
+            <p class="card-text">{{team_member.position}}</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <h2>Master's Students</h2>
+    <div class="row">
+      {% for team_member in site.team_members %}
+      {% if team_member.category == "masters" %}
+      <div class="col-3">
+        <div class="card border-0">
+          <a href="{{site.baseurl}}{{team_member.permalink}}">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
+            <p class="card-text">{{team_member.position}}</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <h2>Undergraduate Students</h2>
+    <div class="row">
+      {% for team_member in site.team_members %}
+      {% if team_member.category == "undergrads" %}
+      <div class="col-3">
+        <div class="card border-0">
+          <a href="{{site.baseurl}}{{team_member.permalink}}">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
+            <p class="card-text">{{team_member.position}}</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <h2>Research Staff</h2>
+    <div class="row">
+      {% for team_member in site.team_members %}
+      {% if team_member.category == "staff" %}
+      <div class="col-3">
+        <div class="card border-0">
+          <a href="{{site.baseurl}}{{team_member.permalink}}">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
+            <p class="card-text">{{team_member.position}}</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    <h2>Alumni</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Years in Group</th>
+          <th scope="col">Present Position</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th colspan="3">Research Associates</th>
+        </tr>
+        {% for alum in site.alumni %}
+        {% if alum.category == "research_associates" %}
+        <tr>
+          <td>{{alum.name}}</td>
+          <td>{{alum.years_in_lab}}</td>
+          <td>{{alum.current_pos}}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+        <tr>
+          <th colspan="3">Postdoctoral Fellows</th>
+        </tr>
+        {% for alum in site.alumni %}
+        {% if alum.category == "postdocs" %}
+        <tr>
+          <td>{{alum.name}}</td>
+          <td>{{alum.years_in_lab}}</td>
+          <td>{{alum.current_pos}}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+        <tr>
+          <th colspan="3">Doctoral Students</th>
+        </tr>
+        {% for alum in site.alumni %}
+        {% if alum.category == "phds" %}
+        <tr>
+          <td>{{alum.name}}</td>
+          <td>{{alum.years_in_lab}}</td>
+          <td>{{alum.current_pos}}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+        <tr>
+          <th colspan="3">Master's Students</th>
+        </tr>
+        {% for alum in site.alumni %}
+        {% if alum.category == "masters" %}
+        <tr>
+          <td>{{alum.name}}</td>
+          <td>{{alum.years_in_lab}}</td>
+          <td>{{alum.current_pos}}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+        <tr>
+          <th colspan="3">Undergraduate Students</th>
+        </tr>
+        {% for alum in site.alumni %}
+        {% if alum.category == "undergrads" %}
+        <tr>
+          <td>{{alum.name}}</td>
+          <td>{{alum.years_in_lab}}</td>
+          <td>{{alum.current_pos}}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+        <tr>
+          <th colspan="3">Scientific Staff</th>
+        </tr>
+        {% for alum in site.alumni %}
+        {% if alum.category == "staff" %}
+        <tr>
+          <td>{{alum.name}}</td>
+          <td>{{alum.years_in_lab}}</td>
+          <td>{{alum.current_pos}}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+
+
+
+
+
+
+  </div>
 </div>
