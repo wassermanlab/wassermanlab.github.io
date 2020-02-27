@@ -1,0 +1,57 @@
+---
+layout: default
+
+---
+
+<div class="team padding-fix">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="{{site.baseurl}}/assets/img/{{page.image}}" class="img-fluid">
+      </div>
+      <div class="col-sm">
+        <h1>{{page.name}}, {{page.titles}}</h1>
+        <h3>{{page.position}}</h3>
+      </div>
+    </div>
+    <div class="row" >
+      <div class="col-sm-4" >
+        <p>
+        <!-- email -->
+        {% if page.email %}
+        <a href="mailto: {{page.email}}"><h5><i class="fas fa-envelope"></i> E-mail</h5></a>
+        {% endif %}
+        <!-- orcid -->
+        {% if page.orcid %}
+        <a href="{{page.orcid}}"><h5><i class="fab fa-orcid"></i> ORCID iD</h5></a>
+        {% endif %}
+        <!-- google scholar -->
+        {% if page.google_scholar %}
+        <a href="{{page.google_scholar}}"><h5><i class="fas fa-graduation-cap"></i> Google Scholar</h5></a>
+        {% endif %}
+        <!-- twitter -->
+        {% if page.twitter %}
+        <a href="{{page.twitter}}"><h5><i class="fab fa-twitter-square"></i> Twitter</h5></a>
+        {% endif %}
+        <!-- linkednin -->
+        {% if page.linkedin %}
+        <a href="{{page.linkedin}}"><h5><i class="fab fa-linkedin"></i> LinkedIn</h5></a>
+        {% endif %}
+        <!-- github -->
+        {% if page.email %}
+        <a href="{{page.github}}"><h5><i class="fab fa-github-square"></i> GitHub</h5></a>
+        {% endif %}
+        <!-- personal website -->
+        {% if page.website %}
+        <a href="{{page.website}}"><h5><i class="fas fa-globe"></i> Personal website</h5></a>
+        {% endif %}
+      </p>
+      </div>
+      <div class="col-sm">
+        <p>
+          {{content}}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
 title: Join Us!
-permalink: /join/
+permalink: /join_us/
 ---
+under construction 

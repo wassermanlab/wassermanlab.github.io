@@ -1,0 +1,14 @@
+---
+layout: default
+
+---
+
+<div class="team">
+    <div class="container">
+      {% for team_member in site.team_members %}
+  <h2>
+    {{ team_member.name }}
+  </h2>
+{% endfor %}
+     </div>
+</div>
