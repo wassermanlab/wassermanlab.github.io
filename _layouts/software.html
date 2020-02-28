@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="padding-fix">
+  <div class="container">
+    <h1>Software</h1>
+    <p>The source code for much of the newer Wasserman Lab software is available on 
+      <a href="https://github.com/wassermanlab">GitHub</a>
+    </p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+          <th scope="col">PubMed ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for s in site.software %}
+        <tr>
+          <td><a href={{s.hyperlink}}>{{s.name}}</a></td>
+          <td>{{s.content}}</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/pubmed/{{s.pubmed}}">{{s.pubmed}}</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
