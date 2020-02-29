@@ -17,14 +17,40 @@ layout: default
         </tr>
       </thead>
       <tbody>
-        {% for s in site.software %}
+        {% for s in site.data.software %}
+        {% if s.retired == "No" %}
         <tr>
           <td><a href={{s.hyperlink}}>{{s.name}}</a></td>
-          <td>{{s.content}}</td>
+          <td>{{s.desc}}</td>
           <td><a href="https://www.ncbi.nlm.nih.gov/pubmed/{{s.pubmed}}">{{s.pubmed}}</a></td>
         </tr>
+        {% endif %}
         {% endfor %}
       </tbody>
     </table>
+
+    <h1>Retired Software</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+          <th scope="col">PubMed ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for s in site.data.software %}
+        {% if s.retired == "Yes" %}
+        <tr>
+          <td><a href={{s.hyperlink}}>{{s.name}}</a></td>
+          <td>{{s.desc}}</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/pubmed/{{s.pubmed}}">{{s.pubmed}}</a></td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+
+
   </div>
 </div>

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="padding-fix">
+  <div class="container">
+    <h1>Papers</h1>
+    <p> 
+      {{content}}
+    </p>
+    {% for pub in site.data.papers %}
+      {{forloop.rindex}}.<a href="https://www.ncbi.nlm.nih.gov{{pub.URL}}"> <b>{{pub.Description}}</b> 
+      {{pub.Title}} {{pub.Details}} </a>
+      <br><br>
+    {% endfor %}
+  </div>
+</div>

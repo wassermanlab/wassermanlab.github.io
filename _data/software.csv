@@ -1,0 +1,42 @@
+name,desc,pubmed,hyperlink,retired
+ABC4DE,"The ABC4DE web-interface allows for the analysis of sets of variants within a region of interest. For a given variant, the tool reports: 1) if it falls within a predicted regulatory region; 2) the predicted role for that region (promoter/enhancer); and 3) if the variant will alter a potential TFBSs.",,,No
+ASB data set,"ASB data set contains 10,765 ASB events retrieved from 45 ENCODE ChIP-Seq data sets.",27492288,,No
+BiasAway,An open-access tool for generating multiple different sequence backgrounds of comparable nucleotide composition relative to a set of input sequences,24927817,https://github.com/wassermanlab/BiasAway,No
+Bioconductor data package for JASPAR,Transcription factor binding profile Bioconductor data package,26531826,http://www.bioconductor.org/packages/release/data/experiment/html/JASPAR2016.html,No
+CAGEd-oPOSSUM,Motif enrichment analysis from CAGE-derived TSSs.,27334471,http://cagedop.cmmt.ubc.ca/CAGEd_oPOSSUM/,No
+cis-reg-pred,Open-access tool for the segmentation of the human genome. The tool uses a supervised machine learning approach to segment the human genome using experimental data in the same spirit as Segway and ChromHMM.,,https://github.com/yifeng-li/cis-reg_v1_0,No
+DECRES,Deep learning for identifying cis-regulatory elements and other applications.,,https://github.com/yifeng-li/DECRES,No
+Deep Learning Package in Python Based on The Deep Learning Tutorials and Theano,This deep learning package is an extension of the Deep Learning Tutorials (www.deeplearning.net/tutorial/).,,https://github.com/yifeng-li/deep_learning,No
+DNAshapedTFBS,Python module allowing for the construction and application of machine learning classifiers combining TFFM/PSSM + DNA shape features for improving the predictions of TFBSs in ChIP-seq data-sets. Highlighted by PMID: 27684185,27546793,https://github.com/amathelier/DNAshapedTFBS,No
+Gene Characerization Index,A bioinformatics method for scoring the extent to which a protein-encoding gene is functionally described,18213364,,No
+IEMBase,Online inborn errors of metabolism knowledgebase and diagnosis support system.,,http://iembase.org/app/,No
+IndelImpact,Open-access software for the computation of the impact of insertions and deletions on transcription factor binding sites.,,https://github.com/wassermanlab/IndelImpact,No
+JASPAR,"The 2016 version of the JASPAR database was publicly released on November 2016 and greatly expands the number of transcription factor binding profiles from 2014. Additionally, transcription factor flexible models (TFFMs) have been provided for 130 of the transcription factors. The structural annotation of the TF DNA binding domains (DBDs) has been changed to follow a published hierarchical structural classification and a new web tool has been included to infer JASPAR TF binding profiles recognized by a given TF protein sequence. Finally, A Ruby API module has been created to accompany the existing Perl and Biopython APIs and R/Bioconductor data package.",26531826,http://jaspar.genereg.net/,No
+JASPAR Biopython module,Biopython package to access and use JASPAR binding profiles.,26531826,https://github.com/biopython/biopython/tree/master/Bio/motifs/jaspar,No
+JASPAR BioRuby gem,"Ruby gems for parsing, searching, and comparing JASPAR motifs; Based on Bio.motifs module in Biopython.",26531826,https://rubygems.org/gems/bio-jaspar,No
+MANTA,SNV impact on TFBSs,25903198,,No
+MeSHOP,"Using Medical Subject Heading Overrepresentation Profiles (MeSHOPs), an entity of interest can be robustly summarized, quantitatively identifying associated biomedical terms and suggesting indirect associations",23017167,http://meshop.oicr.on.ca/meshop/index.html,No
+MSCAN,Algorithm that detects clusters of transcription factor binding sites in genomic sequences,15215379,,No
+NHRscan,A computational predictor of nuclear hormone receptor binding sites,15563547,http://www.cisreg.ca/cgi-bin/NHR-scan/nhr_scan.cgi,No
+oPOSSUM3,A web-based system for the detection of over-represented conserved transcription factor binding sites and binding site combinations in sets of genes or sequences,22973536,http://opossum.cisreg.ca/oPOSSUM3/,No
+ORCAtk,Transcription factor binding site detection using phylogenetic footprinting (alternative to ConSite),18971253,http://cisreg.cmmt.ubc.ca/ORCAtk/,No
+PAZAR,An open-access system for the collection and dissemination of regulatory sequence annotation,17916232,,No
+TFBS perl modules,Perl modules for transcription factor binding site detection and analysis,26531826,http://tfbs.genereg.net/,No
+TFBSTools,R/bioconductor package for transcription factor binding site analysis,26794315,http://www.bioconductor.org/packages/release/data/experiment/html/JASPAR2016.html,No
+TFBS_Visualization,An open-access tool for visualizing and assessing transcription factor topological motif enrichment in ChIP-Seq datasets.,,https://github.com/wassermanlab/TFBS_Visualization,No
+TFCat,TFCat is a catalog of mouse and human TFs based on a reliable core collection of annotations obtained by expert review of the scientific literature,19284633,,No
+TFe,"An online encyclopedic collection of well-studied transcription factor proteins in the human, mouse, and rat genomes",22458515,https://github.com/wassermanlab/TFe,No
+TFFM,Transcription Factor Flexible Models (TFFMs) are hidden Markov model (HMM) representations of TFBS motifs. This online tool allows you to generate TFFMs and scan sequences with them.,24039567,,No
+ConSite,Transcription factor binding site detection using phylogenetic footprinting. Note that this is an older tool which is hosted remotely. You may also be interested in our ORCAtk tool which is maintained locally and performs similar functionality.,15215389,http://consite.genereg.net/,Yes
+dbMTN,Multiple Tissue Northern Blot Comparison Tool,18629180,http://www.cisreg.ca/cgi-bin/dbmtn/index.pl,Yes
+Gene Set Builder,"A tool for collation, curation and distribution of sets of genes",16371163,http://www.cisreg.ca/gsb/,Yes
+GeneLynx,"A portal to the human genome. This tool was developed to fulfill a need for easily accessible gene information at a particular point in time. Having fulfilled its purpose, this tool has been retired. Current tools are available to provide similar services.",11731507,,Yes
+GOToolBox,Functional Investigation of Gene Datasets,15575967,http://genome.crg.es/GOToolBox/,Yes
+JASPAR 2014,"The 2014 version of the JASPAR database was publicly released on November 2013 with the incorporation of new and updated transcription factor binding profiles. Beyond the transcription factor binding profiles, we provide the ChIP-seq derived sequences that have been used to construct the profiles.",24194598,http://jaspar2014.genereg.net/,Yes
+NovelFam3000,A bioinformatics tool created to accelerate characterization of gene families sharing uncharacterized protein domains,16533400,http://www.cisreg.ca/NovelFam/,Yes
+oPOSSUM2,Web-based analysis of over-represented transcription factor binding sites,17576675,http://www.cisreg.ca/oPOSSUM2/,Yes
+OrthoSeq,Alignment of DNA sequences,,http://www.cisreg.ca/cgi-bin/orthoseq/index.pl,Yes
+PFOND,"Developed by the Wasserman Laboratory at UBC, PFOND is a web-based service to promote the sharing of information about research, treatment, and resources for rare genetic disorders.",23920006,http://pfond.cmmt.ubc.ca/,Yes
+RAVEN,Regulatory analysis of Variation in ENhancers,18208319,,Yes
+SAGE2Splice,A tool that uses unmapped SAGE tags to predict novel splice junctions in the genome,16683015,,Yes
+Ulysses,Protein Interactions Conserved Across Evolution,16356269,,Yes

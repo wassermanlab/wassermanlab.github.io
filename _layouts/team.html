@@ -127,7 +127,7 @@ layout: default
         <tr>
           <th colspan="3">Research Associates</th>
         </tr>
-        {% for alum in site.alumni %}
+        {% for alum in site.data.alumni %}
         {% if alum.category == "research_associates" %}
         <tr>
           <td>{{alum.name}}</td>
@@ -139,7 +139,7 @@ layout: default
         <tr>
           <th colspan="3">Postdoctoral Fellows</th>
         </tr>
-        {% for alum in site.alumni %}
+        {% for alum in site.data.alumni %}
         {% if alum.category == "postdocs" %}
         <tr>
           <td>{{alum.name}}</td>
@@ -151,7 +151,7 @@ layout: default
         <tr>
           <th colspan="3">Doctoral Students</th>
         </tr>
-        {% for alum in site.alumni %}
+        {% for alum in site.data.alumni %}
         {% if alum.category == "phds" %}
         <tr>
           <td>{{alum.name}}</td>
@@ -163,7 +163,7 @@ layout: default
         <tr>
           <th colspan="3">Master's Students</th>
         </tr>
-        {% for alum in site.alumni %}
+        {% for alum in site.data.alumni %}
         {% if alum.category == "masters" %}
         <tr>
           <td>{{alum.name}}</td>
@@ -175,7 +175,7 @@ layout: default
         <tr>
           <th colspan="3">Undergraduate Students</th>
         </tr>
-        {% for alum in site.alumni %}
+        {% for alum in site.data.alumni %}
         {% if alum.category == "undergrads" %}
         <tr>
           <td>{{alum.name}}</td>
@@ -187,7 +187,7 @@ layout: default
         <tr>
           <th colspan="3">Scientific Staff</th>
         </tr>
-        {% for alum in site.alumni %}
+        {% for alum in site.data.alumni %}
         {% if alum.category == "staff" %}
         <tr>
           <td>{{alum.name}}</td>

@@ -1,6 +1,5 @@
 ---
-layout: default
+layout: research
 title: Research
 permalink: /research/
 ---
-under construction 

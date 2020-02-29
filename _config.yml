@@ -32,9 +32,7 @@ plugins:
 collections: 
   team_members:
     output: true
-  alumni:
-    output: true
-  software:
+  research_sums:
     output: true
 
 

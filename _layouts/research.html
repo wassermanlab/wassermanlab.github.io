@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="padding-fix">
+  <div class="container">
+        <h1>Research</h1>
+        {% for r in site.research_sums %}
+        <div class=row style="padding-top: 20px;">
+          <div class="col-sm">
+            <h2>{{r.heading}}</h2>
+            <p>{{r.content}}</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="{{site.baseurl}}/assets/img/{{r.image}}" class="img-fluid">
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+  </div>
