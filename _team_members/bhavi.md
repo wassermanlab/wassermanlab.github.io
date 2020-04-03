@@ -2,7 +2,7 @@
 layout: team_member
 name: Bhavi Modi
 permalink: /bhavi_modi/
-image: tamar_pic.jpg
+image: headshots/bhavi.jpg
 titles: PhD
 position: Postdoctoral Fellow
 email: bmodi@cmmt.ubc.ca

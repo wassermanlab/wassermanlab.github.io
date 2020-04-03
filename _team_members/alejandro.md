@@ -3,9 +3,13 @@ layout: team_member
 name: Alejandro Aguirre
 permalink: /alejandro_aguirre/
 image: tamar_pic.jpg
-titles: BA
+titles: BSc
 position: Masters Student
 email: aaguirre@cmmt.ubc.ca
+orcid: https://orcid.org/0000-0002-3390-8301
+linkedin: http://linkedin.com/in/alejoaa
+twitter: https://twitter.com/alejoaguia
+github: https://github.com/alejoaa
 category: masters
 ---
-This is some filler text in place of a bio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat rhoncus tincidunt. Vivamus vulputate eget tellus in pretium. Phasellus vestibulum elementum massa vitae scelerisque. Suspendisse imperdiet egestas dui, sed cursus lacus molestie non. Integer vestibulum risus nisl, at dictum nisl pellentesque sed. Curabitur laoreet et lorem eget euismod. Ut eu consequat felis, eget interdum nulla. Phasellus pharetra, nisl at consequat laoreet, erat tortor pellentesque neque, at tincidunt lectus arcu sed ligula. Nam sollicitudin vulputate aliquam.
+Alejandro's interests involve artificial intelligence and the integration of different omics data to get a better understanding of diseases. He has a BSc in Biology from Universidad CES, with a thesis focused on comparative genomics of Leptospira bacteria. His previous experience involves the development of pipelines and databases to store genomic data in a clinical laboratory, as well as programming web applications.

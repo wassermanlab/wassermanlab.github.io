@@ -2,7 +2,7 @@
 layout: team_member
 name: Solenne Correard
 permalink: /solenne_correard/
-image: tamar_pic.jpg
+image: headshots/solenne.jpg
 titles: PhD
 position: Postdoctoral Fellow
 email: scorreard@cmmt.ubc.ca

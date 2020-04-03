@@ -13,4 +13,4 @@ twitter: https://twitter.com/ofornes
 github: https://github.com/oriolfornes
 category: postdocs
 ---
-This is some filler text in place of a bio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat rhoncus tincidunt. Vivamus vulputate eget tellus in pretium. Phasellus vestibulum elementum massa vitae scelerisque. Suspendisse imperdiet egestas dui, sed cursus lacus molestie non. Integer vestibulum risus nisl, at dictum nisl pellentesque sed. Curabitur laoreet et lorem eget euismod. Ut eu consequat felis, eget interdum nulla. Phasellus pharetra, nisl at consequat laoreet, erat tortor pellentesque neque, at tincidunt lectus arcu sed ligula. Nam sollicitudin vulputate aliquam.
+Born in Krypton, OrIOL has dEVELOPED extensive superpowers for the study of gene regulation.  That's why everyone calls him super ori or simply master regulator. Hail the greatest mind of our century. In the lab, his suggestions carry root permissions. He is also a big fan of Oreo cookies and Twinkies

@@ -3,7 +3,8 @@ layout: join_us
 title: Join Us!
 permalink: /join_us/
 postdocs: >
-    currently there are no positions
+    SILENT GENOMES PROJECT – BIOINFORMATICS TEAM Post-Doctoral Scientist
+    https://www.bcchr.ca/sites/default/files/group-silent-genomes/silent-genomes-wasserman-jd-postdoc_202003.pdf
 phds: >
     currently there are no positions
 masters: >
@@ -11,6 +12,6 @@ masters: >
 undergrads: >
     currently there are no positions
 others: >
-    currently there are no positions
-
+    SILENT GENOMES PROJECT – BIOINFORMATICS TEAM Bioinformatics Programmer/Specialist
+    https://www.bcchr.ca/sites/default/files/group-silent-genomes/silent-genomes-wasserman-jd-programmer_202003.pdf
 ---

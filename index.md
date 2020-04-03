@@ -6,6 +6,9 @@ layout: home
 title: Wasserman Lab 
 ---
 
-This is some filler text in place of a general overview of our lab. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat rhoncus tincidunt. Vivamus vulputate eget tellus in pretium. Phasellus vestibulum elementum massa vitae scelerisque. Suspendisse imperdiet egestas dui, sed cursus lacus molestie non. Integer vestibulum risus nisl, at dictum nisl pellentesque sed. Curabitur laoreet et lorem eget euismod. Ut eu consequat felis, eget interdum nulla. Phasellus pharetra, nisl at consequat laoreet, erat tortor pellentesque neque, at tincidunt lectus arcu sed ligula. Nam sollicitudin vulputate aliquam.
 
-Proin bibendum sed velit nec aliquet. Nunc lobortis maximus risus in convallis. In id accumsan ex. Mauris in magna molestie, aliquam enim ornare, lobortis mi. Quisque et eros ac odio gravida pretium nec vel elit. Morbi vitae neque accumsan, pharetra tellus sed, iaculis arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sed sollicitudin diam, ut congue mauris.
+Welcome to the Wasserman Lab website! Headed by Dr. Wyeth Wasserman, professor in Medical Genetics at the University of British Columbia and Executive Director of Research at BC Children’s Hospital Research Institute. The lab is in Vancouver, British Columbia where the ocean meets the mountains. 
+
+The Wasserman lab focuses on the creation, evaluation and application of computational methods for the analysis of genome sequences, with international strength in the study of cis-regulatory elements regulating gene expression. The lab creates widely used software and databases, performs applied analyses of genome sequences, and partners with diverse research teams on projects at the intersection of the computational and life sciences. Current research projects draw upon deep learning and related machine learning methods to use the power of modern computers to detect properties in genomics “big data”.  
+
+
