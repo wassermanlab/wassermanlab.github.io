@@ -2,7 +2,7 @@
 layout: team_member
 name: Robin van der Lee
 permalink: /robin_van_der_lee/
-image: tamar_pic.jpg
+image: headshots/robin.jpg
 titles: PhD
 position: Postdoctoral Fellow, Dutch Rubicon Fellow
 email: rvdlee@cmmt.ubc.ca
@@ -13,4 +13,4 @@ twitter: https://twitter.com/robinvdlee
 github: https://github.com/robinvanderlee
 category: postdocs
 ---
-This is some filler text in place of a bio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat rhoncus tincidunt. Vivamus vulputate eget tellus in pretium. Phasellus vestibulum elementum massa vitae scelerisque. Suspendisse imperdiet egestas dui, sed cursus lacus molestie non. Integer vestibulum risus nisl, at dictum nisl pellentesque sed. Curabitur laoreet et lorem eget euismod. Ut eu consequat felis, eget interdum nulla. Phasellus pharetra, nisl at consequat laoreet, erat tortor pellentesque neque, at tincidunt lectus arcu sed ligula. Nam sollicitudin vulputate aliquam.
+Robin is a computational biologist with experience in diverse research topics, notably antiviral immunity/immune disorders, genome evolution, rare disease genetics, noncoding variants/gene regulation, protein degradation. He currently works on the analysis and interpretation of exomes/genomes from pediatric disease patients at BC Children’s Hospital and internationally. He also develops bioinformatics methods for noncoding variant interpretation, including a classification system for regulatory disease variants.
