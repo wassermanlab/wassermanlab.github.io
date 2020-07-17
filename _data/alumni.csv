@@ -1,37 +1,67 @@
 name,years_in_lab,current_pos,category
-"Elodie Portales-Casamar, Ph.D.","2006-2010(Res Assoc)
-2005-2006(Postdoc)","Investigator, BC Children’s Hospital",research_associates
-Stefanie Butland,2007 - 2008,"Project & Outreach Coordinator, Life Sciences Institute, UBC, Canada",research_associates
-"Margareta Faxen, PhD",2000 - 2002,"Biosafety Officer, AZSHE, Sweden",research_associates
-"Ekaterina (Katya) Nosova, PhD",2011 - 2013,"Computational Biologist, Centre for Applied Neurogenetics, UBC, Canada",postdocs
-"Virginie Bernard, PhD",2010 - 2012,"Bioinformatics Manager, ICGex Bioinformatics team, Curie Institute, France",postdocs
-"David Martin, PhD",2006,"Postdoctoral Researcher, Centre for Genomic Regulation, Spain",postdocs
-"Wynand Alkema, PhD",2002 - 2004,"Group Leader and Project Manager
-NIZO food research, The Netherlands",postdocs
-"Boris Lenhard, PhD",2000 - 2002,"Group Head, Computational Regulatory Genomics
-MRC Clinical Sciences Centre, U.K.",postdocs
-"Luis Mendoza, PhD",2000 - 2002,"Group Leader, CompBioLab, Instituto de Investigaciones Biomédicas, Universidad
+Postdoc,,,
+Robin Van der Lee,2017 - 2020,,postdocs
+Magda Price,2017 - 2018,"Data Specialist, the Children's Hospital of Eastern Ontario Research Instittue, Ottawa",postdocs
+Allison Matthews,2015 - 2017,"Genomic Specialist Laboratory Scientist,
+Division of Laboratory Genetics & Genomics
+Dept. of Pathology & Laboratory Medicine, BC Children’s Hospital",postdocs
+Maja Tarailo-Graovac,2013 - 2014,"Assistant Professor, 
+Depts of Biochemistry and Molecular Biology and Medical Genetics, Cumming School of Medicine; Alberta Children’s Hospital Research Institute, University of Calgary,  Calgary, Canada",postdocs
+Yifeng Li,2013 - 2015,"Faculty Position,
+Brock University, Jan 2020
+Research Officer
+Scientific Data Mining Group; Information and Communications Technologies
+National Research Council Canada (NRC), Ottawa, Canada",postdocs
+Ekaterina Nosova,2011 - 2013,"Associate Director, Research Analytics, British Columbia Centre on Substance Use, St. Paul's Hospital; Adjunct Professor, Department of Medicine, UBC
+Vancouver, Canada",postdocs
+Anthony Mathelier,2011 - 2016,"Group Leader, Computational Biology and Gene Regulation, the Centre for Molecular Medicine Norway, University of Oslo, Norway",postdocs
+Virginie Bernard,2010 - 2012,,postdocs
+Elodie Portales-Casamar,2005 - 2007,"Clinical Assistant Professor, Dept. of Pediatrics, UBC;
+Investigator/Clinical Research Informatics Lead, BC Children’s Hospital, Canada",postdocs
+David Martin,2005 - 2006,"Research Professional, 
+Montpellier, France",postdocs
+Wynand Alkema,2002 - 2004,"Group Leader, Fermentation & Health, Nizo Food Research, The Netherlands",postdocs
+Boris Lenhard,2000 - 2002,"Professor, Computational Biology,  Imperial College, London, UK",postdocs
+Luis Mendoza,2000 - 2002,"Group Leader, CompBioLab, Instituto de Investigaciones Biomédicas, Universidad
 Nacional Autónoma de México, Mexico",postdocs
-"William Krivan, PhD",2000 - 2001,"Founder at Krivan Capital LLC, Los Angeles, USA",postdocs
-"Warren Cheung, PhD",2007 - 2013,"Postdoctoral Fellow, McGill University, Montreal, Canada",phds
-"Andrew Kwon, PhD","2004 - 2012 (PhD Student)
-2003 - 2004 (Software Developer)","Postdoctoral Researcher, RIKEN Yokohama Institute, Japan.",phds
-"Debra Fulton, PhD",2005 - 2009,"Postdoctoral Fellow, McGill University, Montreal, Canada",phds
-"Jochen Brumm, PhD",2003 - 2008,"Statistician in Early Clinical Development, F. Hoffmann-La Roche Ltd, Switzerland",phds
-"Shannan Ho Sui, PhD",2003 - 2008,"Research Scientist at Harvard School of Public Health, Boston, USA",phds
-"Raf Podowski, PhD",2003 - 2006,"Independant Consultant, Digital Lance, USA",phds
-"Danielle Kemmer, PhD",2000 - 2006,"Program manager, Génome Québec, Montreal, Canada",phds
-"Albin Sandelin, PhD",2000 - 2004,"Professor, Bioinformatics Centre, University of Copenhagen, Denmark",phds
-Alice Chou,"2011 - 2013 (Res Tech)
-2008 - 2009 (Res Asst)
-2005 - 2008 (MSc.)
-2004 - 2005 (Res Asst)
-2003 (Undergrad Summer Student)","Lab Associate, BC Centre for Excellence in HIV/AIDS, Vancouver, Canada",masters
-Siddhartha Srivastava,2006 - 2008,"Internal Medicine Resident, Kingston General Hospital, Ontario, Canada",masters
-Byron Kuo,2004 - 2005,"Bioinformatician, Health Canada, Canada",masters
-Chris Walsh,2003 - 2004,"Medical School Student, UBC, Canada (as of 2004)",masters
-Pär Engström,2001 - 2001,"Postdoctoral Fellow at European Molecular Biology Laboratory, Cambridge, UK",masters
-"Björn Wallner, PhD",2001,"Researcher, Stockholm University, Sweden.",masters
+William Krivan,1999 - 2001,"Founder at Krivan Capital LLC, Los Angeles, USA",postdocs
+Phds,,,
+Cynthia Xin Ye,2015 - 2019,"MD PhD Student at UBC Medical School, Canada",phds
+Allen Zhang,2014 - 2019,"MD PhD Student at UBC Medical School, Canada
+",phds
+Jessica (Jean) Jae Yun Lee,2014 - 2018,"Freelance
+EveryLife Foundation for Rare Diseases
+",phds
+Wenqiang Shi,2012 - 2017,"Assistant Professor, Department of Epidemiology, Beijing Institute of Microbiology and Epidemiology, China
+China Scholarship ",phds
+Casper Shyr,2011 - 2016,"Data Science Manager, Fraser Health Authority, BC Canada;
+UBC 4Year ",phds
+Julie Chih-yu Chen,2011 - 2016,"Data scientist, Bioinformatics Core Facility, National Microbiology Lab, Winnipeg, Public Health Agency of Canada",phds
+Rebecca Worsley Hunt,2007 - 2015,"Postdoctoral Scientist, The Max Delbrück Center for Molecular Medicine, Germany",phds
+Warren Cheung,2007 - 2012,"Senior Computational Biologist, Children's Mercy Hospital Genome Testing Center,  Kansas City, Missouri, USA",phds
+Debra Fulton,2005 - 2009,"Postdoctoral Fellow, McGill University, Canada",phds
+Andrew Tae-Jun Kwon,2004 - 2011,"Researcher Scientist, Molecular Network Control Genomics Unit, RIKEN Center for Life Science Technologies, Japan",phds
+Shannan Ho Sui,2003 - 2008,"Senior Research Scientist, Harvard T.H. Chan School of Public Health;
+Scientific Director, Harvard School of Public Health Bioinformatics Core;
+Affiliated Faculty at Harvard Stem Cell Institute, USA",phds
+Jochen Brumm,2003 - 2008,"Senior Statistical Scientist, Genentech Inc, Member of the Roche Group, South San Francisco, USA",phds
+Raf Podowski°,2003 - 2006,"Data Science Team Lead, Advanced Development Group,
+Bio-Rad Laboratories Hercules, USA",phds
+Danielle Kemmer°,1905 - 2006,"Vice President, Strategy and Initiatives, Graham Boeckh Foundation, Montreal, Canada",phds
+Albin Sandelin°,1905 - 2004,"Professor, University of Copenhagen, Denmark",phds
+Masters,,,
+Michael Gottlieb,2016 - 2017,"Software Engineer, Tasktop Technologies, Vancouver",masters
+Rachelle Farkas,2015 - 2017,"Research Methods Specialist,
+Centre for Addiction and Mental Health (CAMH), Toronto",masters
+Cynthia Xin Ye,2012 - 2014,"MD PhD Student at UBC Medical School, Canada",masters
+Siddhartha Srivastava,2007 - 2007,"Physician and Assistant Professor, General Internal Medicine, Queen’s University, Canada.",masters
+Alice Chou,2005 - 2008,"Lab Associate, BC Centre for Excellence in HIV/AIDS, Canada",masters
+Chris J. Walsh•,2003 - 2004,"Medical Student, University of BC, Canada",masters
+Byron Kuo,2003 - 2005,"Bioinformatics, Health Canada, Canada.
+Joint Head of Bioinformatics Long-term Support (WABI), National Bioinformatics Infrastructure Sweden (NBIS), Science for Life Laboratory, Stockholm University, Stockholm Sweden",masters
+Bjorn Wallner,2001 - 2001,"Associate Professor, Linköping University, Sweden",masters
+Albin Sandelin,2000 - 2000,"Professor, University of Copenhagen, Denmark",masters
+Undergrads,,,
 Puya Seid-Karbasi,2011 - 2014,"Software Development Engineer, Amazon, USA",undergrads
 "Dimas Yusuf, MD","2004 - 2008 (Undergrad Student)
 2008 - 2009 (Software Developer)
@@ -47,11 +77,10 @@ Christopher Dickman,2008 - 2009,"Graduate Student, Dept of Biology, University o
 Peter Sudmant,2005 - 2006,"Doctoral Student, Genome Sciences, U. of Washington, USA",undergrads
 "Shao-shan (Carol) Huang, PhD",2004 - 2005,"Postdoctoral Fellow, Salk Institute for Biological Studies, San Diego, USA",undergrads
 Teresa Wang,2003,"Project Manager and Consultant, Accenture, Vancouver, Canada",undergrads
-Scientific Staff,,,undergrads
-Jonathan Lim,2002 - 2013,"Programmer Analyst II, UBC, Canada",undergrads
-Magdalena Swanson,2006 - 2009,"Research & Grant Development Facilitator, Research Administration & Development, Fraser Health Authority, Canada",undergrads
-"Shi Yuan (Steven) Jiang, MD",2007 - 2008,"Internal Medicine Resident, UBC Hospital, Vancouver, Canada",undergrads
-Amy Ticoll,2006 - 2007,"Territory Manager, Janssen Pharmaceutical company of Johnson & Johnson, Canada",undergrads
-Stuart Lithwick,2006 - 2007,"PhD Student, University of Toronto",undergrads
-Elena Herzog,2001 - 2002,"QA Specialist, Elsevier, Germany",undergrads
-"Annette Hoglund, PhD",2001 - 2002,"Senior Director, Schrodinger, Sweden",undergrads
+Jonathan Lim,2002 - 2013,"Programmer Analyst II, UBC, Canada",staff
+Magdalena Swanson,2006 - 2009,"Research & Grant Development Facilitator, Research Administration & Development, Fraser Health Authority, Canada",staff
+"Shi Yuan (Steven) Jiang, MD",2007 - 2008,"Internal Medicine Resident, UBC Hospital, Vancouver, Canada",staff
+Amy Ticoll,2006 - 2007,"Territory Manager, Janssen Pharmaceutical company of Johnson & Johnson, Canada",staff
+Stuart Lithwick,2006 - 2007,"PhD Student, University of Toronto",staff
+Elena Herzog,2001 - 2002,"QA Specialist, Elsevier, Germany",staff
+"Annette Hoglund, PhD",2001 - 2002,"Senior Director, Schrodinger, Sweden",staff

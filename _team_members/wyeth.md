@@ -2,7 +2,7 @@
 layout: team_member
 name: Wyeth W. Wasseman
 permalink: /wyeth_wasserman/
-image: tamar_pic.jpg
+image: headshots/wyeth.jpg
 titles: PhD
 position: Principal Investigator
 email: wyeth@cmmt.ubc.ca

@@ -2,7 +2,7 @@
 layout: team_member
 name: Phillip A. Richmond
 permalink: /phillip_richmond/
-image: tamar_pic.jpg
+image: headshots/phil.jpg
 titles: BA
 position: PhD Candidate
 email: prichmond@cmmt.ubc.ca

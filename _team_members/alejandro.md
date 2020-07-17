@@ -2,7 +2,7 @@
 layout: team_member
 name: Alejandro Aguirre
 permalink: /alejandro_aguirre/
-image: tamar_pic.jpg
+image: headshots/alejandro.jpg
 titles: BSc
 position: Masters Student
 email: aaguirre@cmmt.ubc.ca

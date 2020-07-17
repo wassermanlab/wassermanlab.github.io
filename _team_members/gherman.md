@@ -2,7 +2,7 @@
 layout: team_member
 name: Gherman Novakovsky
 permalink: /gherman_novakovsky/
-image: tamar_pic.jpg
+image: headshots/gherman.jpg
 titles: MS
 position: PhD Candidate
 email: gnovakovsky@cmmt.ubc.ca

@@ -1,6 +1,6 @@
 ---
 heading: Genome Analysis 
-image: bcchr.jpeg
+image: 
 ---
 Genome Sequencing has accelerated  health research, particularly disease genetics. The lab has been developing computational methods and tools to allow researchers and clinicians to identify functional consequences of genetic variations within the human genome, both in the protein coding and in the non-coding space. The latter effort is fueled by the gene regulation bioinformatics research in the lab.
 
