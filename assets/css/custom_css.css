@@ -21,4 +21,7 @@ html {
   a {
     color: black;
 }
-
+.jumbotron {
+  background-image: url("../img/bcchr.jpeg");
+  background-size: cover;
+}
