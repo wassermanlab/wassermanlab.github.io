@@ -117,6 +117,7 @@ layout: default
     <h2>Alumni</h2>
 
     <div class="accordion" id="accordionExample">
+
       <div class="card"> <!-- begining collapse -->
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
@@ -184,106 +185,108 @@ layout: default
           </div>
         </div>
       </div> <!-- end collapse -->
-   
-      <!-- this is where you put the other collapses, you can copy the way we put in the post docs
-      remember to change id of the content div and change the targets to that new id -->
 
+      <div class="card"> <!-- begining collapse -->
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#mastersCollapse" aria-expanded="true" aria-controls="mastersCollapse">
+              Masters
+            </button>
+          </h2>
+        </div>
+
+        <div id="mastersCollapse" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Years in Group</th>
+                  <th scope="col">Present Position</th>
+                </tr>
+              </thead>
+              {% for alum in site.data.alumni %}
+              {% if alum.category == "masters" %}
+              <tr>
+                <td>{{alum.name}}</td>
+                <td>{{alum.years_in_lab}}</td>
+                <td>{{alum.current_pos}}</td>
+              </tr>
+              {% endif %}
+              {% endfor %}
+            </table>
+          </div>
+        </div>
+      </div> <!-- end collapse -->
+
+      <div class="card"> <!-- begining collapse -->
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#undergradsCollapse" aria-expanded="true" aria-controls="undergradsCollapse">
+              Undergraduates
+            </button>
+          </h2>
+        </div>
+
+        <div id="undergradsCollapse" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Years in Group</th>
+                  <th scope="col">Present Position</th>
+                </tr>
+              </thead>
+              {% for alum in site.data.alumni %}
+              {% if alum.category == "undergrads" %}
+              <tr>
+                <td>{{alum.name}}</td>
+                <td>{{alum.years_in_lab}}</td>
+                <td>{{alum.current_pos}}</td>
+              </tr>
+              {% endif %}
+              {% endfor %}
+            </table>
+          </div>
+        </div>
+      </div> <!-- end collapse -->
+
+      <div class="card"> <!-- begining collapse -->
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#staffCollapse" aria-expanded="true" aria-controls="staffCollapse">
+              Staff
+            </button>
+          </h2>
+        </div>
+
+        <div id="staffCollapse" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Years in Group</th>
+                  <th scope="col">Present Position</th>
+                </tr>
+              </thead>
+              {% for alum in site.data.alumni %}
+              {% if alum.category == "staff" %}
+              <tr>
+                <td>{{alum.name}}</td>
+                <td>{{alum.years_in_lab}}</td>
+                <td>{{alum.current_pos}}</td>
+              </tr>
+              {% endif %}
+              {% endfor %}
+            </table>
+          </div>
+        </div>
+      </div> <!-- end collapse -->
     </div>
-
-
-
-
-
-    <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">Name</th>
-          <th scope="col">Years in Group</th>
-          <th scope="col">Present Position</th>
-        </tr>
-      </thead>
-      <!--
-      <tbody>
-        <tr>
-          <th colspan="3">Research Associates</th>
-        </tr>
-        {% for alum in site.data.alumni %}
-        {% if alum.category == "research_associates" %}
-        <tr>
-          <td>{{alum.name}}</td>
-          <td>{{alum.years_in_lab}}</td>
-          <td>{{alum.current_pos}}</td>
-        </tr>
-        {% endif %}
-        {% endfor %}
-      -->
-      <tr>
-        <th colspan="3">Postdoctoral Fellows</th>
-      </tr>
-      {% for alum in site.data.alumni %}
-      {% if alum.category == "postdocs" %}
-      <tr>
-        <td>{{alum.name}}</td>
-        <td>{{alum.years_in_lab}}</td>
-        <td>{{alum.current_pos}}</td>
-      </tr>
-      {% endif %}
-      {% endfor %}
-      <tr>
-        <th colspan="3">Doctoral Students</th>
-      </tr>
-      {% for alum in site.data.alumni %}
-      {% if alum.category == "phds" %}
-      <tr>
-        <td>{{alum.name}}</td>
-        <td>{{alum.years_in_lab}}</td>
-        <td>{{alum.current_pos}}</td>
-      </tr>
-      {% endif %}
-      {% endfor %}
-      <tr>
-        <th colspan="3">Master's Students</th>
-      </tr>
-      {% for alum in site.data.alumni %}
-      {% if alum.category == "masters" %}
-      <tr>
-        <td>{{alum.name}}</td>
-        <td>{{alum.years_in_lab}}</td>
-        <td>{{alum.current_pos}}</td>
-      </tr>
-      {% endif %}
-      {% endfor %}
-      <tr>
-        <th colspan="3">Undergraduate Students</th>
-      </tr>
-      {% for alum in site.data.alumni %}
-      {% if alum.category == "undergrads" %}
-      <tr>
-        <td>{{alum.name}}</td>
-        <td>{{alum.years_in_lab}}</td>
-        <td>{{alum.current_pos}}</td>
-      </tr>
-      {% endif %}
-      {% endfor %}
-      <tr>
-        <th colspan="3">Scientific Staff</th>
-      </tr>
-      {% for alum in site.data.alumni %}
-      {% if alum.category == "staff" %}
-      <tr>
-        <td>{{alum.name}}</td>
-        <td>{{alum.years_in_lab}}</td>
-        <td>{{alum.current_pos}}</td>
-      </tr>
-      {% endif %}
-      {% endfor %}
-      </tbody>
-    </table>
-
-
-
-
-
-
   </div>
 </div>
