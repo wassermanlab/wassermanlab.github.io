@@ -2,7 +2,7 @@
 layout: team_member
 name: Oriol Fornés Crespo
 permalink: /oriol_fornes_crespo/
-image: tamar_pic.jpg
+image: /headshots/blankprofile.png
 titles: PhD
 position: Postdoctoral Fellow, Deputy Group Leader
 email: oriol@cmm.ubc.ca

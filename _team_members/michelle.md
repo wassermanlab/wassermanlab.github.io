@@ -2,7 +2,7 @@
 layout: team_member
 name: Michelle Kang
 permalink: /michelle_kang/
-image: tamar_pic.jpg
+image: /headshots/blankprofile.png
 titles: BSc
 position: Masters Student
 email: mmkang@cmmt.ubc.ca

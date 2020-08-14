@@ -5,14 +5,15 @@ layout: default
 <div class="team padding-fix">
   <div class="container">
     <h1>Team</h1>
-    <h2>Principal Investigator</h2>
+
+    <h3>Principal Investigator</h3>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "pis" %}
-      <div class="col-3">
+      <div class="col-sm">
         <div class="card border-0">
-          <a href="{{site.baseurl}}{{team_member.permalink}}">
-            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          <a href="{{site.baseurl}}{{team_member.permalink}}" style="width:200px; height:250px">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top" style="width:200px; height:250px">
           </a>
           <div class="card-body">
             <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
@@ -23,14 +24,15 @@ layout: default
       {% endif %}
       {% endfor %}
     </div>
+
     <h2>Postdoctoral Fellows</h2>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "postdocs" %}
-      <div class="col-3">
+      <div class="col-sm">
         <div class="card border-0">
-          <a href="{{site.baseurl}}{{team_member.permalink}}">
-            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          <a href="{{site.baseurl}}{{team_member.permalink}}" style="width:200px; height:250px">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top" style="width:200px; height:250px">
           </a>
           <div class="card-body">
             <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
@@ -41,14 +43,15 @@ layout: default
       {% endif %}
       {% endfor %}
     </div>
+
     <h2>Doctoral Students</h2>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "phds" %}
-      <div class="col-3">
+      <div class="col-sm">
         <div class="card border-0">
-          <a href="{{site.baseurl}}{{team_member.permalink}}">
-            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          <a href="{{site.baseurl}}{{team_member.permalink}}" style="width:200px; height:250px">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top" style="width:200px; height:250px">
           </a>
           <div class="card-body">
             <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
@@ -59,14 +62,15 @@ layout: default
       {% endif %}
       {% endfor %}
     </div>
+
     <h2>Masters Students</h2>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "masters" %}
-      <div class="col-3">
+      <div class="col-sm">
         <div class="card border-0">
-          <a href="{{site.baseurl}}{{team_member.permalink}}">
-            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          <a href="{{site.baseurl}}{{team_member.permalink}}" style="width:200px; height:250px">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top" style="width:200px; height:250px">
           </a>
           <div class="card-body">
             <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
@@ -77,14 +81,15 @@ layout: default
       {% endif %}
       {% endfor %}
     </div>
+
     <h2>Undergraduate Students</h2>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "undergrads" %}
-      <div class="col-3">
+      <div class="col-sm">
         <div class="card border-0">
-          <a href="{{site.baseurl}}{{team_member.permalink}}">
-            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          <a href="{{site.baseurl}}{{team_member.permalink}}" style="width:200px; height:250px">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top" style="width:200px; height:250px">
           </a>
           <div class="card-body">
             <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
@@ -95,14 +100,15 @@ layout: default
       {% endif %}
       {% endfor %}
     </div>
+
     <h2>Research Staff</h2>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "staff" %}
-      <div class="col-3">
+      <div class="col-sm">
         <div class="card border-0">
-          <a href="{{site.baseurl}}{{team_member.permalink}}">
-            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top">
+          <a href="{{site.baseurl}}{{team_member.permalink}}" style="width:200px; height:250px">
+            <img src="{{site.baseurl}}/assets/img/{{team_member.image}}" class="card-img-top" style="width:200px; height:250px">
           </a>
           <div class="card-body">
             <h5 class="card-title">{{team_member.name}}, {{team_member.titles}}</h5>
@@ -115,9 +121,7 @@ layout: default
     </div>
 
     <h2>Alumni</h2>
-
     <div class="accordion" id="accordionExample">
-
       <div class="card"> <!-- begining collapse -->
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">

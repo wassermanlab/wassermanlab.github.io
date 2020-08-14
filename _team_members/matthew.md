@@ -2,7 +2,7 @@
 layout: team_member
 name: Matthew Mong
 permalink: /matthew_mong/
-image: tamar_pic.jpg
+image: /headshots/blankprofile.png
 position: Worklearn 
 category: undergrads
 ---
