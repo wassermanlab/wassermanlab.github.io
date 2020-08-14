@@ -1,12 +1,27 @@
 ---
 layout: default
 ---
+<!--Header-->
+<header class="header" role="banner">
+  <head> 
+    <title>Team Page</title> 
+</head> 
+<div class="container text-black">
+  <h1>Our Team</h1>
+</div>
+</header>
+
+<!-- Plain Header 
+<div class="banner" style="padding:15px; text-align:center ; background-color: cadetblue; height: 20vh;">
+  <div class="banner-content">
+  <h1>Our Team</h1>
+  </div>
+  </div>
+-->
 
 <div class="team padding-fix">
   <div class="container">
-    <h1>Team</h1>
-
-    <h3>Principal Investigator</h3>
+    <h3>Principal Investigator</h3><br>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "pis" %}
@@ -25,7 +40,7 @@ layout: default
       {% endfor %}
     </div>
 
-    <h2>Postdoctoral Fellows</h2>
+    <h2>Postdoctoral Fellows</h2><br>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "postdocs" %}
@@ -44,7 +59,7 @@ layout: default
       {% endfor %}
     </div>
 
-    <h2>Doctoral Students</h2>
+    <h2>Doctoral Students</h2><br>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "phds" %}
@@ -63,7 +78,7 @@ layout: default
       {% endfor %}
     </div>
 
-    <h2>Masters Students</h2>
+    <h2>Masters Students</h2><br>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "masters" %}
@@ -82,7 +97,7 @@ layout: default
       {% endfor %}
     </div>
 
-    <h2>Undergraduate Students</h2>
+    <h2>Undergraduate Students</h2><br>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "undergrads" %}
@@ -101,7 +116,7 @@ layout: default
       {% endfor %}
     </div>
 
-    <h2>Research Staff</h2>
+    <h2>Research Staff</h2><br>
     <div class="row">
       {% for team_member in site.team_members %}
       {% if team_member.category == "staff" %}
@@ -120,7 +135,7 @@ layout: default
       {% endfor %}
     </div>
 
-    <h2>Alumni</h2>
+    <h2>Alumni</h2><br>
     <div class="accordion" id="accordionExample">
       <div class="card"> <!-- begining collapse -->
         <div class="card-header" id="headingOne">
