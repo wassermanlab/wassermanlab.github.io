@@ -22,6 +22,7 @@ html {
     color: black;
 }
 
+/*full width jumbotron
 .jumbotron {
   width:100%;
    height: 100vh;
@@ -42,6 +43,40 @@ html {
    vertical-align:middle;
    text-align: center;
  }
+ */
+
+ /* JUMBOTRON STYLE HERE */
+.jumbotron{
+  width:100%;
+   height: 100vh;
+   display:table;
+
+  background: 
+linear-gradient(
+  rgba(0, 0, 250, 0.25), 
+  rgba(125, 250, 250, 0.45)
+),
+url('/assets/img/index/bcchr.jpg') center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+color:white !important;
+height:100vh;
+}
+
+.jumbotron .container {
+  display:table-cell;
+  vertical-align:middle;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+ 
  
  
  
