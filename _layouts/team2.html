@@ -5,6 +5,7 @@ layout: default
 <div class="team padding-fix">
     <div class="container">
       <h1>Team</h1>
+    
       <!-- row 1 -->
       <div class="row" style="padding-top: 15px;">
       {% for team_member in site.team_members limit: 5 offset: 0 %}
@@ -21,6 +22,7 @@ layout: default
       </div>
       {% endfor %}
       </div>
+
       <!-- row 2 -->
       <div class="row" style="padding-top: 15px;">
         {% for team_member in site.team_members limit: 5 offset: 5 %}
@@ -37,6 +39,7 @@ layout: default
         </div>
         {% endfor %}
         </div>
+        
       <!-- row 3 -->
       <div class="row" style="padding-top: 15px;">
         {% for team_member in site.team_members limit: 5 offset: 10 %}

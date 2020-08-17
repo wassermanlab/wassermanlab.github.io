@@ -53,21 +53,21 @@ html {
 
 /* SUBPAGE HEADER STYLE HERE */
  .header {
-  padding-top: 50px;
-  text-align: center;
+  padding-top: 70px;
+  text-align: center; 
   vertical-align: middle;
+  height: 400px;
   background:
-/*linear-gradient(
-  rgba(0, 0, 250, 0.596), 
+linear-gradient(
+  rgba(29, 82, 228, 0.473), 
   rgba(125, 250, 250, 0.45)
-),*/
-url('/assets/img/lab_logo.png') center center;
+),
+url('/assets/img/index/UBC_campus_featurepic.jpg');
 background-repeat: no-repeat;
+background-position: center;
 background-attachment: fixed;
 background-size: cover;
-color:black !important;
-font-weight: bolder;
-font-size: 64px;
-height:20vh;
+color:rgb(245, 240, 240) !important;
+height:30vh;
 }
 
