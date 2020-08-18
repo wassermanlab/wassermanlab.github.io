@@ -15,7 +15,6 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-sm">
-        <h1>Contact</h1>
         <div>
           <p><b>Principal investigator:</b></p>
           {% assign paragraphs = page.pi | newline_to_br | split: '<br />' %}
@@ -33,7 +32,7 @@ layout: default
         </div>
       </div>
       <div class="col-sm">
-        <img src="{{site.baseurl}}/assets/img/{{page.image}}" class="img-fluid">
+        <img src="{{site.baseurl}}/assets/img/index/{{page.image}}" class="img-fluid">
       </div>
     </div>
   </div>

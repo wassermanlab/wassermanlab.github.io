@@ -2,7 +2,7 @@
 layout: contact
 title: Contact
 permalink: /contact/
-image: bcchr.jpg
+image: Wasserman_lab_20_years.jpg
 pi: >
     Wyeth Wasserman, PhD <br>
     Room 3109, Wasserman Lab <br>

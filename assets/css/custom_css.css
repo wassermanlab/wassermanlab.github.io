@@ -71,3 +71,28 @@ color:rgb(245, 240, 240) !important;
 height:30vh;
 }
 
+
+
+footer {
+  background: 
+  linear-gradient(
+  rgba(29, 82, 228, 0.473), 
+  rgba(125, 194, 250, 0.45)
+),
+    url('/assets/img/index/bcchr.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    color:rgb(245, 240, 240) !important;
+    height:30vh;
+}
+
+footer p {
+  margin: 20px 0;
+}
+
+footer a {
+	color: #3C97BF;
+	text-decoration: none;
+}
