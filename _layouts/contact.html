@@ -46,6 +46,7 @@ layout: default
               <img class="d-block w-100" src="/assets/img/carousel/Dec2017_group.jpg" alt="Third slide">
             </div>
           </div>
+
           <a class="carousel-control-prev" href="#carousel-control" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -54,13 +55,51 @@ layout: default
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
               <!-- image replaced with carousel 
                 <img src="{{site.baseurl}}/assets/img/index/{{page.image}}" class="img-fluid">
               -->
-              </div>
-            </div>
-          </div>
         </div>
+      </div>
+
+
+ <!-- Need to set up billing??
+        GOOGLE MAP
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <style>
+              /* Set the size of the div element that contains the map */
+              #map {
+                height: 400px;  /* The height is 400 pixels */
+                width: 100%;  /* The width is the width of the web page */
+              }
+            </style>
+          </head>
+          <body>
+            <h3>My Google Maps Demo</h3>
+            
+            <div id="map"></div>
+            <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of BCCHR
+          var bcchr = {lat: 123.126970, lng: 49.245996};
+          // The map, centered at BCCHR
+          var map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 4, center: bcchr});
+          // The marker, positioned at BCCHR
+          var marker = new google.maps.Marker({position: bcchr, map: map});
+        }
+            </script>
+            <script defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDShg_TAm1FmNlr5QKVsCmBN0bQQSt5xa0&callback=initMap">
+            </script>
+          </body>
+        </html>
+-->
+
+    </div>
+  </div>
+</div>
 
 

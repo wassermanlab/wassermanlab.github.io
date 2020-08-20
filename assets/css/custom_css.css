@@ -99,9 +99,10 @@ footer a {
 }
 
 /* CAROUSEL STYLE HERE */
-
 .carousel .carousel-item {
+  margin: 0rem;
   height: 50vh;
   width: 75vh;
 }
 
+/* API MAP STYLE HERE */
