@@ -54,6 +54,7 @@ html {
 /* SUBPAGE HEADER STYLE HERE */
  .header {
   padding-top: 70px;
+  padding-bottom: 70px;
   text-align: center; 
   vertical-align: middle;
   height: 400px;
@@ -72,7 +73,7 @@ height:30vh;
 }
 
 
-
+/* FOOTER STYLE HERE */
 footer {
   background: 
   linear-gradient(
@@ -96,3 +97,11 @@ footer a {
 	color: #3C97BF;
 	text-decoration: none;
 }
+
+/* CAROUSEL STYLE HERE */
+
+.carousel .carousel-item {
+  height: 50vh;
+  width: 75vh;
+}
+
