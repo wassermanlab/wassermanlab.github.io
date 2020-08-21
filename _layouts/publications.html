@@ -12,10 +12,10 @@ layout: default
 </header>
 
 <div class="padding-fix">
+  <!--
   <div class="container">
     <h1>Papers</h1>
     <p> 
-      {{content}}
     </p>
     {% for pub in site.data.papers %}
       {{forloop.rindex}}.<a href="https://www.ncbi.nlm.nih.gov{{pub.URL}}"> <b>{{pub.Description}}</b> 
@@ -23,4 +23,27 @@ layout: default
       <br><br>
     {% endfor %}
   </div>
+-->
+
+<div class="container">
+  <h3>Recently published papers</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Year</th>
+        <th scope="col">Paper</th>
+        <th scope="col">PubMed ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for pub in site.data.papers %}
+      <tr>
+        <td>{{pub.year}}</td>
+        <td><a href="https://www.ncbi.nlm.nih.gov/pubmed/{{pub.pubmed}}">{{pub.paper}}</a> <br> {{pub.description}} <br> {{pub.details}}</td>
+        <td><a href="https://www.ncbi.nlm.nih.gov/pubmed/{{pub.pubmed}}">{{pub.pubmed}}</a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
 </div>
