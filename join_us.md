@@ -11,7 +11,7 @@ postdocs: >
     RESEARCH ASSOCIATE - BIOINFORMATICS LAB
     <br>
     My lab's looking for a PhD bioinformatics scientist with demonstrated interest in gene regulation and mentoring of trainees. Should have a few years of post-doctoral experience and a strong desire for doing hands-on research.
-    <br>
+    <br> 
     https://careers.iscb.org/jobs/view/7118
     
     <br><br>
