@@ -11,18 +11,36 @@ layout: default
 </div>
 </header>
 
-<div class="padding-fix">
-  <div class="container">
-        {% for r in site.research_sums %}
-        <div class=row style="padding-top: 20px;">
-          <div class="col-sm">
-            <h2>{{r.heading}}</h2>
-            <p>{{r.content}}</p>
+<!--
+<div class=research>
+  <div class="padding-fix">
+    <div class="container">
+          {% for r in site.research_sums %}
+          <div class=row style="padding-top: 20px;">
+            <div class="col-sm">
+              <h2>{{r.heading}}</h2>
+              <p>{{r.content}}</p>
+            </div>
+            <div class="col-sm-4">
+              <img src="{{site.baseurl}}/assets/img/research/{{r.image}}" class="img-fluid align-content-around">
+            </div>
           </div>
-          <div class="col-sm-4">
-            <img src="{{site.baseurl}}/assets/img/index/{{r.image}}" class="img-fluid">
-          </div>
-        </div>
-        {% endfor %}
+          {% endfor %}
+      </div>
     </div>
   </div>
+</div>
+-->
+
+  <div class="padding-fix">
+    <div class="container">
+          {% for r in site.research_sums %}
+              <h2>{{r.heading}}</h2>
+              <img src="{{site.baseurl}}/assets/img/research/{{r.image}}" class="research img-fluid" >
+              <p>{{r.content}}</p>
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+
+

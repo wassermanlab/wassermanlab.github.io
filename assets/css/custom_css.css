@@ -76,3 +76,10 @@ height:30vh;
 .carousel {
 position: relative;
 }
+
+img.research {
+  padding: 3px;
+  float: right;
+  margin-right: 1em;
+  width: 30%;
+}

@@ -10,6 +10,6 @@ title: Wasserman Lab
 <br>
 <font size= "5">
     
-The Wasserman lab focuses on the creation, evaluation and application of computational methods for the analysis of genome sequences, with international strength in the study of cis-regulatory elements regulating gene expression. The lab creates widely used software and databases, performs applied analyses of genome sequences, and partners with diverse research teams on projects at the intersection of the computational and life sciences. Current research projects draw upon deep learning and related machine learning methods to use the power of modern computers to detect properties in genomics “big data”.
+The Wasserman lab focuses on the creation and application of computational methods for the analysis of genome sequences, with emphasis on the study of cis-regulatory elements controlling gene transcription.  The lab creates widely used software and databases, performs applied analyses of genome sequences, and partners with diverse research teams on projects at the intersection of the computational and life sciences. Current research projects draw upon deep learning and related machine learning methods to use the power of modern computers to gain insghts into how diverse types of cells are produced from the same DNA sequence.  
 </font>
 
