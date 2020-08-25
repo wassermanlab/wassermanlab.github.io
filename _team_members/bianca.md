@@ -2,7 +2,7 @@
 layout: team_member
 name: Bianca
 permalink: /bianca/
-image: /headshots/blankprofile.png
+image: /headshots/bianca.jpg
 position: Worklearn
 category: undergrads
 ---
