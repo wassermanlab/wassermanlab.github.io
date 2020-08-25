@@ -85,55 +85,23 @@ img.research {
 }
 
 
-.rss-items {
- margin-top:0px;
- padding:0.5em;
- margin-left: 0px;
- color: #0099ff;
-}
-
-p.rss-title {padding:0.5em;}
-.rss-title {
- text-decoration: none;
- font-family: verdana, sans-serif;
- font-size: 85%;
- background-color:#330066;
- color:#ffffff;
- font-weight:bold;
- margin: 0px;
- padding:0em;
- text-align: left;
-}
-
-
+/* RSS FEED STYLE HERE */
 
 .rss-item  {
  font-family: verdana, arial, sans-serif;
- font-size: 0.75em;
+ font-size: 0.85em;
  font-weight : normal;
  list-style:none;
- padding-bottom:1em;
+ padding-bottom:2em;
 }
 
-
-
 .rss-item a {
- color:blue;
- font-size: 105%;
+ color: #0077ff;
+ font-size: 90%;
  font-weight:bold;
  font-family:arial, sans-serif;
  }
 
- 
-
 .rss-item a:visited {
- color:#330066;
+ color:#51a5c7;
 }
-
-
-
-.rss-date {
- font-size: 85%;
- font-weight : normal;
- color: #F60;
- } 

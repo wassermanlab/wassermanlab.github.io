@@ -24,3 +24,4 @@ notice: >
     Our team is constantly changing. The students and post-docs in the group have historically done well, with alumni working in both industry and academia. We take pride in teamwork and maintaining a positive research environment. Opportunities are always available for exceptional students and post-docs. Computer programming skills are essential—we work in a linux environment and develop our own software (primarily in Python).
 
 ---
+<!-- "Post last updated" should be fixed on join_us.html*/-->
