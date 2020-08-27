@@ -6,5 +6,6 @@ image: /headshots/blankprofile.png
 titles: BA
 position: PhD Candidate
 email: akaye@cmmt.ubc.ca
+github: https://github.com/Tixi
 category: phds
 ---
