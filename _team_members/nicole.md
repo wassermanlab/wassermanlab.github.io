@@ -1,6 +1,6 @@
 ---
 layout: team_member
-name: Xi (Nicole) Zhang"
+name: Xi (Nicole) Zhang
 permalink: /nicole_zhang/
 image: headshots/nicole.jpg
 titles: BA
