@@ -53,11 +53,11 @@ scroll-behavior: smooth;
 
 /* SUBPAGE HEADER STYLE HERE */
 .header {
-padding-top: 70px;
+padding-top: 110px;
 padding-bottom: 70px;
 text-align: center; 
 vertical-align: middle;
-height: 400px;
+height: 1000px;
 background:
 linear-gradient(
 rgba(29, 82, 228, 0.473), 
@@ -71,6 +71,13 @@ background-size: cover;
 color:rgb(245, 240, 240) !important;
 height:30vh;
 }
+
+.navbar {
+  z-index: 10000;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}​
 
 /* CAROUSEL STYLE HERE */
 .carousel {
