@@ -1,8 +1,9 @@
 ---
 layout: team_member
-name: Meltem Eda Omur, MSc
+name: Meltem Eda Omur
 permalink: /meltem/
 image: /headshots/meltem.jpg
+titles: MSc
 position: Phd Student
 email: momur@cmmt.ubc.ca 
 orcid: https://orcid.org/0000-0001-6637-0096
