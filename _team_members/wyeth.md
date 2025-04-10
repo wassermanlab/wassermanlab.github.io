@@ -1,6 +1,6 @@
 ---
 layout: team_member
-name: Wyeth W. Wasseman
+name: Wyeth W. Wasserman
 permalink: /wyeth_wasserman/
 image: headshots/wyeth.jpg
 titles: PhD
