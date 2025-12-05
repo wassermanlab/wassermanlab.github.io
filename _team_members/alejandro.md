@@ -3,7 +3,7 @@ layout: team_member
 name: Alejandro Aguirre
 permalink: /alejandro_aguirre/
 image: headshots/alejandro.jpg
-titles: MSc
+titles: BSc
 position: PhD Student
 email: aaguirre@cmmt.ubc.ca
 orcid: https://orcid.org/0000-0002-3390-8301
